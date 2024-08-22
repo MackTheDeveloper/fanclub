@@ -1,0 +1,1 @@
+<p class="s2 not-found-text">{{$msg}} </p>

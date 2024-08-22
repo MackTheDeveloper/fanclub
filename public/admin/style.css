@@ -1,0 +1,46 @@
+.error {
+    color: red;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+#photographer_count_details_div, #videographer_count_details_div, #album_included_yes_group {
+    border: 0.5px solid #0000001c;
+    padding: 3%;
+}
+
+.dataTables_scroll {
+    margin-bottom: .75rem !important;
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered {
+    display: contents;
+}
+
+.app-main__outer {
+    width: 100%;
+}
+
+.card-title-in-page {
+    background: #ccc;
+    padding: 5px;
+    color: #fff;
+}
+.blockOverlay,.blockPage{
+    z-index:1051 !important;
+}
+.card-header .collapsed .fa {
+    transform: rotate(90deg);
+}
+
+.ck.only-ck{
+    padding-left: 0 !important;
+    height: 24px;
+    width: 24px;
+    margin-bottom: 0 !important;
+}

@@ -1,0 +1,233 @@
+:root{
+  --body-color: #FFF;
+  --white-bg: #FFF;
+  --white-bg2: #FFF;
+  --pure-white-1: #FFF;
+  --color-1: #212121;
+  --color-2: #666666;
+  --color-3: #9E9E9E;
+  --color-4: #CCCCCC;
+  --color-5: #333;
+  --border-1: #212121;
+  --border-2: #666666;
+  --border-3: #9E9E9E;
+  --border-4: #CCCCCC;
+  --border-5: #d0d9d9;
+  --border-6: rgba(158, 158, 158, 0.2);
+  --border-7: #f5f5f5;
+  --border-8: #FAFAFB;
+  --border-9: rgba(158, 158, 158, 0.2); 
+  --round-border: #FFF;
+  --bg-2:#666666;
+  --bg-3: #9E9E9E;
+  --bg-4: #CCCCCC;
+  --bg-5: rgba(245, 245, 245, 0.75);
+  --bg-6: #d0d9d9;
+  --bg-7: #fef9f9;
+  --bg-8: #f5f5f5;
+  --bg-9: whitesmoke;
+  --bg-10: #f3f3f3;
+  --bg-11: #fff9f9;
+  --bg-12: rgba(245, 245, 245, 0.7);
+  --bg-13: rgba(27, 27, 27, 0.2);
+  --bg-14: #f0d6d6;
+  --light-bg: rgba(250, 250, 251, 0.7);
+  --dropdown-bg: #FFF;
+  --hover-bg: #fafafb;
+  --back-bg: rgba(158, 158, 158, 0.4);
+  --scroll-track-bg: rgba(196, 196, 196, 0.35);
+  --cookie-color: #fff9f9;
+}
+.dark-theme{
+  --body-color: #1b1b1b;
+  --white-bg: #1b1b1b;
+  --white-bg2: #222428;
+  --pure-white-1: #FFF;
+  --color-1: #e2e3e3;
+  --color-2: #a7a7a9;
+  --color-3: #747578;
+  --color-4: #747578;
+  --color-5: #e2e3e3;
+  --border-1: rgba(255, 255, 255, 0.23);
+  --border-2: rgba(255, 255, 255, 0.6);
+  --border-3: rgba(255, 255, 255, 0.37); 
+  --border-4: rgba(255, 255, 255, 0.25);
+  --border-5: rgba(255,255,255,0.3);
+  --border-6: rgba(255,255,255,0.1);
+  --border-7: rgba(255,255,255,0.1);
+  --border-8: rgba(255,255,255,0.1);
+  --border-9: rgba(158, 158, 158, 0.2);
+  --round-border: #1b1b1b;
+  --bg-2: rgba(255, 255, 255, 0.6);
+  --bg-3: rgba(255, 255, 255, 0.37);
+  --bg-4: rgba(255, 255, 255, 0.37);
+  --bg-5: #222428;
+  --bg-6: rgba(255,255,255,0.3);
+  --bg-7: #221c1c;
+  --bg-8: rgba(255,255,255,0.1);
+  --bg-9: #2c2c2c;
+  --bg-10: #2c2c2c;
+  --bg-11: #222428;
+  --bg-12: #222428;
+  --bg-13: rgba(168, 168, 168, 0.2);
+  --bg-14: #392b2b;
+  --light-bg: #282b2f;
+  --dropdown-bg: #333;
+  --hover-bg: #34373e;
+  --back-bg: rgba(0,0,0,.5);
+  --scroll-track-bg: rgba(196, 196, 196, 0.1);
+  --cookie-color: #261d1d;
+}
+
+.white-img{
+  display: none;
+}
+.dark-theme .black-img{
+  display: none;
+}
+.dark-theme .white-img{
+  display: block;
+}
+
+.whiteImg{
+  display: block !important;
+}
+.blackImg{
+  display: none !important;
+}
+.dark-theme .blackImg{
+  display: block !important;
+}
+.dark-theme .whiteImg{
+  display: none !important;
+}
+
+
+.dark-theme .top-navbar .menu-icon,
+.dark-theme footer img,
+.dark-theme .header-search button img,
+.dark-theme .otp-page .email-edit a,
+.dark-theme .artist-details .search-section .search-box button img,
+.dark-theme .icon-dropdown .dropdown-toggle img,
+.dark-theme .recent-search .search-wrapper .searching-data img,
+.dark-theme .collection-box .c-icon,
+.dark-theme .side-menu-profile .closeIcons,
+.dark-theme .first-menu ul li a img, 
+.dark-theme .second-menu ul li a img, 
+.dark-theme .profile-menu ul li a img,
+.dark-theme .install-app img,
+.dark-theme .my-profile .down-arrow,
+.dark-theme .my-profile .dropdown-menu ul li img,
+.dark-theme .c-dropdown .dropdown-item img,
+.dark-theme .my-playlist-table table tr td .artist .like-menu a img,
+.dark-theme .aboutchangepopup .modal-content button.close img,
+.dark-theme .insta-img,
+.dark-theme .chat-page .chat-sidebar .search-bar .search-box button img,
+.dark-theme .chat-page .chat-sidebar .search-bar > button img,
+.dark-theme .back-chat,
+.dark-theme .date-icon img,
+.dark-theme .d-flex.sortIcons img,
+.dark-theme .modal-content button.close span img,
+.dark-theme .mysongs-review-item .dropdown-toggle img,
+.dark-theme .my-playlist-table table tr td .artist .like-menu .c-dropdown button img,
+.dark-theme .round-drop.c-dropdown button img,
+.dark-theme .edit-news-dropdown button img,
+.dark-theme .round-drop-news.c-dropdown button img,
+.dark-theme .chat-page .chat-board .chat-board-header .refresh-icon img,
+.dark-theme .deletePopup .modal-content .modal-body .close,
+.dark-theme .c-dropdown button img,
+.dark-theme .closeIcons2.fixed-right,
+.dark-theme .song-list-wrapper ul li .drag-handle img,
+.dark-theme .song-list-wrapper .song-close img, 
+.dark-theme .song-list-wrapper .song-menu img,
+.dark-theme .unfill-star,
+.dark-theme .views-and-likes .viewer-box img,
+.dark-theme .review-list .review-list-header img,
+.dark-theme .artist-profile-slider .this-img-wrapper .deleteBanner img,
+.dark-theme .artist-profile-slider .active.center .item .deleteBanner img,
+.dark-theme .view-btn-links .view-profile a img,
+.dark-theme .cookie-alert img
+{
+  filter: brightness(0) invert(1);
+  opacity: 0.87;
+}
+.dark-theme .chat-page .chat-board .chat-board-input .emoji-input button img,
+.dark-theme .usc-box img.inactive{
+  filter: brightness(0) invert(1);
+  opacity: 0.8;
+}
+.dark-theme .upcoming-event .header-img-data .data-wrapper .btn-block .more-btn img,
+.dark-theme .artist-banner-content .data-wrapper .btn-block .more-btn img,
+/* .dark-theme .my-playlist .header-img-data .data-wrapper .btn-block .heart,  */
+.dark-theme .my-collection-page .header-img-data .data-wrapper .btn-block .heart,
+.dark-theme .my-playlist .header-img-data .data-wrapper .btn-block .more-btn img, 
+.dark-theme .my-collection-page .header-img-data .data-wrapper .btn-block .more-btn img,
+.dark-theme .time-location-popup .location img, 
+.dark-theme .time-location-popup .time img{
+  filter: brightness(0) invert(1);
+  opacity: 0.6;
+}
+
+.dark-theme .breadCrums ul li a::after{
+  background: url(../img/Vector-white.svg) !important;
+  background-position: center !important;
+  background-size: cover !important;
+}
+.dark-theme .label-select select {
+  background-image: url(../img/chevron-down-white.svg) !important;
+  background-position: calc(100% - 9px), calc(100% - 9px) !important;
+  background-size: 24px !important;
+  background-repeat: no-repeat !important;
+}
+.dark-theme .upcoming-event .header-img-data .data-wrapper .btn-block .heart{
+  background: url(../img/Ellipse-white.svg) !important;
+  background-size: cover !important;
+}
+.dark-theme .artist-banner-content .data-wrapper .btn-block .heart {
+  background: url(../img/Ellipse-white.svg) !important;
+  background-size: cover !important;
+}
+.dark-theme .hiw-box::after{
+  background: url(../img/Line-white.svg);
+  background-position: center;
+  background-size: cover;
+}
+.dark-theme .footer-block .s2::after{
+  background: url(../img/down-dark-arrow-white.svg);
+  background-position: center;
+  background-size: cover;
+}
+.dark-theme #stars li{
+  background: url(../img/Default-star-white.svg);
+  background-size: cover;
+  background-position: center;
+}
+.dark-theme .ui-datepicker-header a.ui-datepicker-prev {	
+	background: url('../img/down-dark-arrow-white.svg');
+	background-repeat: no-repeat;
+	background-size: 20px;
+	background-position: center;
+}
+.dark-theme .ui-datepicker-header a.ui-datepicker-next {
+	background: url('../img/down-dark-arrow-white.svg');
+	background-repeat: no-repeat;
+	background-size: 20px;
+	background-position: center;
+}
+.dark-theme .number-wrapper .cc-picker-code-select-enabled::after{
+  background: url(../img/mobile-down-white.svg);
+  background-position: center;
+  background-size: cover;
+}
+.dark-theme .my-playlist .header-img-data .data-wrapper .btn-block .heart, 
+.dark-theme .my-collection-page .header-img-data .data-wrapper .btn-block .heart{
+  background: url(../img/Ellipse-white.svg);
+  background-size: cover;
+}
+.dark-theme .top-navbar{
+  border-bottom-color: transparent !important;
+}
+
+.dark-theme .CNE-fields .date-icon img{
+  filter: unset !important;
+}

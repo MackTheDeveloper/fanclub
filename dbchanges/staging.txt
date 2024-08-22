@@ -1,0 +1,20 @@
+09-11-2021  (Anshul)
+ALTER TABLE `fan_playlist` ADD `slug` VARCHAR(100) NULL DEFAULT NULL;
+16-11-2021  (Anshul)
+ALTER TABLE `home_page_components` ADD `visibility` ENUM('1','2','3') NULL DEFAULT NULL COMMENT '1-both,2-Registered User , 3 - Guest User' AFTER `type`;
+
+22-11-2021
+Nivedita
+
+CREATE TABLE `users_security_questions` (
+ `id` int NOT NULL,
+ `user_id` int NOT NULL,
+ `security_question_id` int NOT NULL,
+ `answer` varchar(512) NOT NULL,
+ `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+ PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+18-11-2021  (Anshul)
+CREATE TABLE `club_fan`.`favourite_forums` ( `id` INT NOT NULL AUTO_INCREMENT , `user_id` INT NOT NULL , `forum_id` INT NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+CREATE TABLE `club_fan`.`favourite_forum_comment` ( `id` INT NOT NULL AUTO_INCREMENT , `user_id` INT NOT NULL , `forum_comment_id` INT NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
