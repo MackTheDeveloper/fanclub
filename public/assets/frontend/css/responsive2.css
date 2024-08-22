@@ -1,0 +1,434 @@
+@media (min-width: 1366px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (max-width: 1260px) {
+}
+
+@media (max-width: 1199px) {
+  h1 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+  h4 {
+    font-size: 26px;
+    line-height: 38px;
+  }
+  h5 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  h6 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .s1 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 991px) {
+  h1 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  h2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  h4 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  h5 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  h6 {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .s1 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .forumlisting-page .forumlisting-pagein {
+    margin-bottom: 34px;
+  }
+  .forum-listing-content .forum-iteams-main .forum-list-iteam .forum-likeshits {
+    margin-right: 22px;
+  }
+  .uploadsongs-page .uploadsong-options .dragsongs {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  h2 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  h4 {
+    font-size: 23px;
+    line-height: 32px;
+  }
+  h5 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  h6 {
+    font-size: 17px;
+    line-height: 23px;
+  }
+  p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .s1 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .headof-sortbys .sortby-update p {
+    font-size: 14px;
+    line-height: 18px;
+    margin-right: 12px;
+  }
+  .starts-newtopic .header-search {
+    display: block;
+  }
+  .headof-sortbys .sortby-update {
+    display: none;
+  }
+  .mysongsreview-pagein .addnew-topicbar .sortby-update {
+    display: none;
+  }
+  .mymusic-pagein .mymusic-topicbar .sortby-update {
+    display: none !important;
+  }
+  .forum-listing-content .addnew-topicbar .addtopic-btn {
+    margin-top: 16px;
+    text-align: center;
+    justify-content: center;
+  }
+  .mysongs-pagein .uploadssong-btn.addtopic-btn {
+    width: 167px;
+  }
+  .mysongs-pagein .uploadssong-btn.addtopic-btn a {
+    font-size: 12px;
+  }
+  .mysongs-pagein .songsearchbar-withbtn .starts-newtopic {
+    width: calc(100% - 191px);
+  }
+  .uploadsongs-page .uploadsong-options .songupload-btn button#custom-button {
+    width: 160px;
+  }
+  .uploadsongs-page .uploadsong-options .songupload-btn {
+    padding-left: 0px;
+    align-items: center;
+-webkit-align-items: center;
+  }
+  .uploadsongs-page .uploadsong-options {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+  .uploadsongs-page .uploadsong-options .middle-orline .orcircle-mid {
+    height: 151px;
+  }
+  .uploadsongs-page .uploadsong-options .dragsongs {
+    padding-left: 0px;
+  }
+  .forumlisting-page .uploadssong-btn.addtopic-btn {
+    width: 167px;
+  }
+  .forumlisting-page .uploadssong-btn.addtopic-btn a {
+    font-size: 12px;
+  }
+  .forumlisting-page .songsearchbar-withbtn .starts-newtopic {
+    width: calc(100% - 191px);
+  }
+  /* .forumlisting-page {
+    margin-top: 19px;
+  } */
+  .faqs-page {
+    /* margin-top: 24px; */
+    margin-bottom: 40px;
+  }
+  /* .faqs-page h5 {
+    margin-top: 16px;
+  } */
+  .uploadsongs-page {
+    margin-top: 24px;
+    margin-bottom: 40px;
+  }
+  /* .banner-headeroverlay .sub-banneroverlay img {
+    height: 220px;
+  } */
+  .aboutchangepopup .modal-content .modal-header {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+  }
+  /* .mysongs-reviewpage {
+    margin-top: 24px;
+  } */
+  .mysongs-reviewpage {
+    padding-bottom: 40px;
+  }
+  /* .mysongs-reviewpage .headof-sortbys {
+    margin-top: 21px;
+  } */
+  .myreview-songspage .reviewmysong-row .thumb-col {
+    width: 100%;
+  }
+  .myreview-songspage .reviewmysong-row .review-col {
+    width: 100%;
+  }
+  .myreview-songspage .reviewmysong-row {
+    flex-direction: column;
+  }
+  .myreview-songcard {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .myreview-songspage {
+    margin-bottom: 40px;
+  }
+  .myreview-songspage h5 {
+    margin-bottom: 26px;
+  }
+  .mysongs-review-item .songreviews-ratingbar {
+    align-items: center;
+-webkit-align-items: center;
+  }
+  .filter-header{
+    margin-left: 16px;
+    height: 40px;
+    border-radius: 24px;
+    background: transparent;
+    outline: none;
+    border: 1px solid var(--border-2);	
+    font-family: noto_bold;
+    color: var(--color-2);
+    padding: 0 18px;
+    text-align: center;
+    box-sizing: border-box;
+    display: inline-flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+-webkit-align-items: center;
+    transition: all 300ms ease-in;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+  }
+  .d-flex.sortIcons{
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+-webkit-align-items: center;
+  }
+  .d-flex.sortIcons img{
+    display: block;
+  }
+
+  .drop-area-zone{
+    flex-direction: column;
+    height: auto;
+  }
+  .left-drop-section, .right-btn-section{
+    margin: 0;
+  }
+  .middle-orline{
+    position: static;
+    transform: unset;
+    width: 200px;
+    margin: 45px 0;
+  }
+  .middle-orline .orcircle-mid {
+    height: 0.5px;
+    background:  var(--border-3);
+    position: relative;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+-webkit-align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .forumlisting-page .headof-sortbys{
+    margin-top: 0;
+    margin-bottom: 24px;
+  }
+  .forum-listing-content .forum-iteams-main .forum-list-iteam .forum-likeshits {
+    margin-right: 12px;
+  }
+  .valuable-reviews-section .headof-sortbys .sortby-update {
+    display: none;
+  }
+  .forum-listing-content .forum-iteams-main .forum-list-iteam .forum-list-content > .a{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  /* .my-reviews-page {
+    margin-top: 24px;
+  } */
+  .breadcrumb-section {
+    margin-top: 0;
+    margin-bottom: 0;
+    position: unset;
+  }
+  .forum-listing-content .forum-iteams-main .forum-list-iteam .forum-list-content p {
+    margin-bottom: 11px;
+    line-height: 20px;
+  }
+  .forum-anscomments .forum-coments-initem {
+    padding-top: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 20px;
+    margin-bottom: 24px;
+  }
+  .mysongs-pagein .songsearchbar-withbtn {
+    flex-direction: column;
+  }
+  .mysongs-pagein .songsearchbar-withbtn .starts-newtopic {
+    width: 100%;
+  }
+  .mysongs-pagein .uploadssong-btn.addtopic-btn {
+    width: 100%;
+    margin-top: 24px;
+  }
+  .uploadsongs-page .uploadsong-options {
+    flex-direction: column;
+    align-items: center;
+-webkit-align-items: center;
+  }
+  .uploadsongs-page .uploadsong-options .songupload-btn {
+    padding-left: 0;
+  }
+  .uploadsongs-page .uploadsong-options {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .uploadsongs-page .uploadsong-options .middle-orline .orcircle-mid {
+    width: 210px !important;
+    border-bottom: 1px solid #9e9e9e;
+    border-left: 0;
+    height: unset;
+  }
+  .uploadsongs-page .uploadsong-options .middle-orline {
+    margin-top: 34px;
+    margin-bottom: 34px;
+  }
+  .mysongs-reviewpage .mysongsreview-pagein .addnew-topicbar .starts-newtopic {
+    width: calc(100% - 80px);
+  }
+  .mysongs-reviewpage .mysongsreview-pagein .addnew-topicbar .filter-header {
+    display: flex;
+    align-items: center;
+-webkit-align-items: center;
+  }
+  .forumlisting-page .songsearchbar-withbtn {
+    flex-direction: column;
+  }
+  .forumlisting-page .songsearchbar-withbtn .starts-newtopic {
+    width: 100%;
+  }
+  .forumlisting-page .uploadssong-btn.addtopic-btn {
+    width: 100%;
+    margin-top: 24px;
+    justify-content: center;
+  }
+  .faqs-page {
+    /* margin-top: 24px; */
+    margin-bottom: 40px;
+  }
+  /* .faqs-page h5 {
+    margin-top: 16px;
+  } */
+  .uploadsongs-page {
+    margin-top: 24px;
+    margin-bottom: 40px;
+  }
+  .uploadsongs-page .info-performanceform {
+    max-width: 100%;
+    margin: auto;
+    margin-top: 34px;
+  }
+  .aboutchangepopup textarea{
+    font-size: 14px;
+  }
+  .aboutchangepopup .modal-content {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .aboutchangepopup .modal-dialog button.fill-btn{
+    width: 100%;
+  }
+  .aboutchangepopup .modal-dialog .modal-footer{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .heart-big,
+  .heart-big .heart-checkmark{
+    height: 24px;
+    width: 24px;
+  }
+  .uploadsongs-page .info-performanceform .performace-forminner .reviewthumbnail-upload img{
+    height: 80px;
+    width: 80px;
+  }
+  .thumbnail-drop-heads{
+    padding-left: 20px;
+  }
+
+  .banner-headeroverlay .baneroverlay-content .avtars-content .avtars-likesong{
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+@media (max-width: 450px) {
+}
+
+/* MIN Width Query here */
+
+@media (min-width: 768px) {
+  .headof-sortbys .filter-header {
+    display: none;
+  }
+  .mysongs-reviewpage .addnew-topicbar .filter-header {
+    display: none;
+  }
+  .mymusic-pagein .mymusic-topicbar .filter-header {
+    display: none;
+  }
+}

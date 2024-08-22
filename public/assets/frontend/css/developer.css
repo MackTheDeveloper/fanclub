@@ -1,0 +1,105 @@
+.item .deleteBanner {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: none;
+}
+.item .deleteBanner img {
+    width: 24px;
+    height: 24px;
+}
+
+.active.center .item .deleteBanner {
+    display: block;
+}
+
+.otp-page .resend-otp span button {
+    color: #ed4247;
+    border-bottom: 0;
+    display: inline-block;
+    margin-left: 4px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+.datepicker td,
+.datepicker th {
+    width: 40px;
+    height: 30px;
+}
+.datepicker table tr td.day,.datepicker table tr td.day,.datepicker table tr td.day.focused, .datepicker table tr td.day:hover{
+    color: var(--color-2);
+}
+.datepicker table tr td.day.active,.datepicker table tr td.day.active:hover,
+.datepicker table tr td span.active,.datepicker table tr td span.active:hover{
+    background-color: #ED4247 !important;
+    color: var(--pure-white-1);
+    /* color: var(--color-1); */
+    background-image: none;
+}
+.datepicker table tr td.day:hover,.datepicker .datepicker-switch:hover, .datepicker .next:hover, .datepicker .prev:hover, .datepicker tfoot tr th:hover,.datepicker table tr td span:hover,.datepicker table tr td span.focused,.datepicker table tr td span.focused:hover{
+    background-color: rgba(237, 66, 71, 0.1)
+}
+.datepicker table tr th{
+    color: var(--color-1);
+}
+.datepicker-dropdown{
+   background-color: var(--dropdown-bg); 
+}
+.datepicker-dropdown::before,.datepicker-dropdown::after {
+    display: none;
+}
+.cookie-page ul li a,.cookie-table a{
+    color: var(--color-2);
+}
+.cookie-alert{
+    z-index: 88;
+}
+
+/* .tab-wrapper::after{
+    position: absolute;
+    content: "";
+    right: -68px;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+    background: linear-gradient(to right, transparent, white);
+    width: 157px;
+} */
+footer.footer-artist{
+    padding-top: 0 !important;
+}
+.dashboard-page{
+    padding-bottom: 0 !important;
+}
+
+.header-carousel .owl-dots{
+    visibility: hidden;
+}
+.signUpModal .sign-in-wrapper .sign-in-side .close-black.modal-close{
+    cursor: pointer;
+
+}
+.dark-theme .signUpModal .sign-in-wrapper .sign-in-side .close-black.modal-close{
+    filter: invert(100%);
+}
+
+.news-title{
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.news-title-icon{
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    font-family: 'Noto Sans JP', sans-serif;
+    width: calc(100% - 36px);
+}

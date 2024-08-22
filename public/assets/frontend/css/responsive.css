@@ -1,0 +1,1940 @@
+@media (min-width: 1400px) {
+  .header-carousel {
+    padding-top: 75px;
+  }
+
+  .header-carousel .owl-dots {
+    height: 75px;
+  }
+}
+
+@media (min-width: 1367px) {
+
+  .my-playlist,
+  .my-artist,
+  .trending-now,
+  .new-artist2,
+  .best-of-fanclub,
+  .top-artist,
+  .genres,
+  .seasonal-playlist,
+  .fanclub-playlist,
+  .featur-artist,
+  .fanclub-artist,
+  .new-on-fanclub,
+  .new-artist {
+    max-width: 1320px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-inline: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .square-img-carousel .owl-carousel .owl-stage-outer,
+  .rounded-img-carousel .owl-carousel .owl-stage-outer,
+  .double-img-carousel .owl-carousel .owl-stage-outer {
+    padding-left: 0;
+  }
+
+  .square-img-carousel .owl-prev,
+  .rounded-img-carousel .owl-prev,
+  .double-img-carousel .owl-prev {
+    left: 0;
+  }
+
+  .square-img-carousel .owl-next,
+  .rounded-img-carousel .owl-next,
+  .double-img-carousel .owl-next {
+    right: 0;
+  }
+}
+
+@media (min-width: 1366px) {
+  .container-fluid, .my-collection {
+    max-width: 1320px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .tab-wrapper .container-fluid .tab-section{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  /* .header-search{
+    width: 376px;
+  } */
+  .chat-page {
+    max-width: 1366px;
+    margin-inline: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .chat-board .chat-default-screen img {
+    width: 471px;
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1142px !important;
+    width: 1142px !important;
+    padding-left: 23px !important;
+    padding-right: 23px !important;
+  }
+}
+
+@media (max-width: 1260px) {
+
+  /* .header-search{
+    width: 280px;
+  } */
+  .top-navbar .for-artist {
+    margin-right: 16px;
+  }
+
+  .top-navbar .navbar-brand {
+    margin-right: 20px;
+  }
+
+  .top-navbar .for-fan .fill-btn, .top-navbar .for-fan .border-btn {
+    width: 95px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .top-navbar .for-artist {
+    display: none;
+  }
+
+  .header-search {
+    width: 376px;
+  }
+
+  .top-navbar .for-artist, .top-navbar .register-artist {
+    display: none;
+  }
+
+  .sub-banner img {
+    height: 180px;
+    object-fit: cover;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+
+  .dashboard-page .analytics-wrapper .analytics {
+    flex-wrap: wrap;
+  }
+
+  .dashboard-page .analytics-wrapper .analytics .round-progress {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .dashboard-page .analytics-wrapper .analytics .progress-status-wrapper {
+    width: calc(50% - 12px);
+  }
+
+  .dashboard-page .analytics-wrapper .analytics .like-song-wrapper {
+    width: calc(50% - 12px);
+  }
+
+  .dashboard-page .analytics-wrapper .analytics .progress-status-wrapper .progress-status .monthly,
+  .dashboard-page .analytics-wrapper .analytics .progress-status-wrapper .progress-status .annual {
+    width: 50%;
+  }
+
+  .my-playlist-album .song-album {
+    padding-right: 0;
+    padding-top: 33px;
+  }
+
+  .default-star-box span {
+    display: none;
+  }
+
+  .header-img-data-2 .data-wrapper {
+    padding-right: 24px;
+  }
+
+  .header-img-data-2 .data-wrapper .btn-block .fill-btn {
+    width: 220px;
+  }
+
+  .song-check-status {
+    width: 25%;
+  }
+
+  .map-wrapper {
+    width: 73%;
+  }
+  .hiw-fan-box, .hiw-artist-box{
+    padding: 24px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .header-carousel .owl-dots {
+    height: 40px;
+  }
+
+  .song-list-wrapper ul li .drag-handle {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 992px) {
+  .profile-hr, .profile-menu {
+    display: none;
+  }
+
+  .signUpModal .modal-dialog {
+    min-width: 872px;
+  }
+
+  .sign-in-side .close-black {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .v-line-wrapper, .for-fan {
+    display: none !important;
+  }
+
+  .footer-block {
+    width: calc(25% - 24px);
+  }
+
+  .follow-block {
+    margin-top: 32px;
+    width: 100%;
+  }
+
+  .column {
+    width: 33.33% !important;
+  }
+
+  .header-carousel .owl-dots {
+    height: 30px;
+  }
+
+  .header-carousel .owl-next,
+  .header-carousel .owl-prev {
+    top: calc(50% - 15px);
+  }
+
+  .dashboard-page .analytics-wrapper .analytics .progress-status-wrapper {
+    width: calc(55% - 12px);
+  }
+
+  .dashboard-page .analytics-wrapper .analytics .like-song-wrapper {
+    width: calc(45% - 12px);
+  }
+
+  .dashboard-page .analytics-wrapper .analytics .like-song-wrapper .like-song,
+  .dashboard-page .analytics-wrapper .analytics .progress-status-wrapper .progress-status {
+    padding: 16px;
+  }
+
+  .dashboard-page .analytics-wrapper .analytics .like-song-wrapper .like-song .likes img,
+  .dashboard-page .analytics-wrapper .analytics .like-song-wrapper .like-song .songs img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .navbar-expand .navbar-nav .music-language .dropdown-menu,
+  .navbar-expand .navbar-nav .notification .dropdown-menu {
+    right: 0;
+    left: unset;
+  }
+
+  .my-profile {
+    display: none;
+  }
+
+  .signUpModal .sign-in-wrapper .sign-in-side {
+    width: 100%;
+  }
+
+  .signUpModal .sign-in-wrapper .signin-img-side {
+    display: none;
+  }
+
+  /* .banner-headeroverlay{
+    padding-top: 70px;
+  } */
+  /* .sub-banneroverlay img{
+    height: 150px;
+    object-fit: cover;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  } */
+  .hiw-wrapper .custome-column:last-child {
+    margin-top: 24px;
+  }
+
+  .chat-page .chat-sidebar {
+    width: 40%;
+  }
+
+  .chat-page .chat-board {
+    width: calc(100% - 40%);
+  }
+
+  .artist-sub-banner img {
+    height: 200px;
+  }
+
+  .artist-detail-header .ab-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .artist-detail-header {
+    padding-top: 100px;
+  }
+
+  .artist-banner-content {
+    display: block;
+    text-align: center;
+    margin-bottom: 65px;
+  }
+
+  .artist-banner-content .data-wrapper {
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .artist-banner-content .data-wrapper .btn-block {
+    justify-content: center;
+  }
+
+  .subscribe-block img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .with-password.add-padding-otp-email {
+    padding: 0;
+  }
+
+  .with-password.add-padding-forgot {
+    padding: 0;
+  }
+
+  .with-password.otp-page.add-padding-otp {
+    padding: 0;
+  }
+
+  .my-playlist-album .song-album {
+    padding-top: 23px;
+  }
+
+  .song-list .song-list-header {
+    padding-left: 0;
+  }
+
+  .song-list .song-list-header::after {
+    width: 100%;
+  }
+
+  .my-playlist-album {
+    height: auto;
+  }
+
+  .review-list {
+    padding-left: 0;
+  }
+
+  .video-review-scroll {
+    padding-right: 0;
+  }
+
+  .video-artist-blog {
+    margin-bottom: 0;
+  }
+
+  .song-list-wrapper {
+    padding-right: 0;
+  }
+
+  .my-playlist-video .header-img-data .data-wrapper .btn-block .fill-btn,
+  .my-collection-page .header-img-data .data-wrapper .btn-block .fill-btn {
+    width: 152px;
+  }
+
+  .header-img-data-2 .data-wrapper .btn-block .fill-btn {
+    width: 152px;
+  }
+
+  .header-img-data-2 {
+    margin-top: 0;
+    flex-direction: column;
+  }
+
+  .header-img-data-2 .header-video-thumbnail {
+    width: 100%;
+    order: 1;
+    margin-bottom: 24px;
+  }
+
+  .header-img-data-2 .data-wrapper {
+    width: 100%;
+    padding-right: 0;
+    order: 2;
+    text-align: center;
+  }
+
+  .header-img-data-2 .data-wrapper>span {
+    margin-bottom: 4px;
+  }
+
+  .header-img-data-2 .data-wrapper .btn-block {
+    justify-content: center;
+  }
+
+  .check-and-map {
+    display: block;
+  }
+
+  .song-check-status {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .song-check-status .usc-box {
+    width: 33.33%;
+  }
+
+  .map-wrapper {
+    width: 100%;
+  }
+
+  .artist-profile-slider .this-img-wrapper{
+    margin-bottom: 24px;
+  }
+  .artist-profile-banner .col-12:last-child .this-img-wrapper{
+    margin-bottom: 0;
+  }
+  .artist-profile-slider .add-banner-btn{
+    margin-top: 32px;
+  }
+  .view-btn-links{
+    justify-content: center;
+    width: 200px;
+  }
+  .view-btn-links .view-profile{
+    margin-right: 0;
+    margin-bottom: 12px;
+  }
+  .hiw-fan-box, .hiw-artist-box{
+    padding: 36px 40px 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .my-playlist-table table tr td .track .track-data span {
+    display: none;
+  }
+
+  .mobile-search {
+    display: none;
+  }
+
+  .back-chat {
+    display: none !important;
+  }
+
+  .mobile-view {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-nav .header-search {
+    display: none;
+  }
+
+  .mobile-search {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  .header-search button {
+    padding-left: 16px;
+  }
+
+  .header-search input {
+    font-size: 12px;
+  }
+
+  .column {
+    width: 50% !important;
+  }
+
+  .row {
+    margin-left: -8px !important;
+    margin-right: -8px !important;
+  }
+
+  [class|=col] {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+
+  .row-5 {
+    margin: 0 -8px !important;
+  }
+
+  .column {
+    padding: 0 8px !important;
+  }
+
+  .follow-block {
+    margin-top: 0;
+  }
+
+  .footer-block {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 12px;
+  }
+
+  .footer-block .s2::after {
+    position: absolute;
+    content: '';
+    background: url(../img/down-dark-arrow.svg);
+    background-position: center;
+    background-size: cover;
+    height: 24px;
+    width: 24px;
+    right: 0;
+    transition: all .3s;
+  }
+
+  .footer-block .s2.show::after {
+    transform: rotate(-180deg);
+  }
+
+  .footer-block ul {
+    height: 0;
+    overflow: hidden;
+  }
+
+  .footer-block .s2.show+ul {
+    height: auto;
+  }
+
+  .footer-block ul+a {
+    display: none !important;
+  }
+
+  .footer-block .s2.show+ul+a {
+    display: inline-block !important;
+  }
+
+  .footer-block.follow-block .s2::after {
+    display: none;
+  }
+
+  .social-icon {
+    margin-bottom: 24px;
+  }
+
+  .column-img .for-pad:first-child {
+    padding-top: 16px;
+  }
+
+  .column-img {
+    column-gap: 16px;
+  }
+
+  .column-img img {
+    margin-bottom: 16px;
+  }
+
+  .web-view {
+    display: none !important;
+  }
+
+  .header-carousel {
+    padding-top: 45px;
+    padding-bottom: 30px;
+  }
+
+  .header-carousel .owl-prev {
+    top: 50%;
+  }
+
+  .header-carousel .owl-next {
+    top: 50%;
+  }
+
+  .collection-box {
+    margin-bottom: 16px;
+  }
+
+  .collection-wrapper .row .col-xs-12:nth-child(4)~* {
+    display: none;
+  }
+
+  .my-playlist-video .header-img-data,
+  .my-collection-page .header-img-data,
+  .upcoming-event .header-img-data {
+    justify-content: center;
+    align-items: center;
+    -webkit-align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .my-playlist-video .header-img-data .big-img,
+  .my-collection-page .header-img-data .big-img,
+  .upcoming-event .header-img-data .big-img {
+    margin-bottom: 18px;
+  }
+
+  h3 {
+    font-size: 35px;
+    line-height: 55px;
+  }
+
+  .my-playlist-video .header-img-data .data-wrapper,
+  .my-collection-page .header-img-data .data-wrapper,
+  .upcoming-event .header-img-data .data-wrapper {
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .my-playlist-video .header-img-data .data-wrapper .btn-block,
+  .my-collection-page .header-img-data .data-wrapper .btn-block,
+  .upcoming-event .header-img-data .data-wrapper .btn-block {
+    justify-content: center;
+    margin-top: 24px;
+  }
+
+  .my-playlist-table table tr:first-child,
+  .my-playlist-table table tr td:last-child {
+    display: none;
+  }
+
+  .my-playlist-table table tr td:first-child {
+    width: 35px;
+  }
+
+  .my-playlist-table table {
+    table-layout: fixed;
+  }
+
+  .my-playlist-table table tr td .artist>span,
+  .my-playlist-table table tr td .artist>a {
+    display: none;
+  }
+
+  .my-playlist-table table tr td .artist,
+  .my-playlist-table table tr td .artist .like-menu {
+    justify-content: flex-end;
+  }
+
+  .my-playlist-table table tr td .track .track-data span {
+    display: block;
+    width: 100%;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .my-playlist-table table tr td:nth-child(3) {
+    width: 68px;
+    text-align: right;
+    padding-left: 0;
+    padding-right: 8px;
+  }
+
+  .my-playlist-table table tr td .artist .like-menu a,
+  .my-playlist-table table tr td .artist .like-menu .c-dropdown {
+    margin-left: 8px;
+  }
+
+  .my-playlist-table table tr td:first-child {
+    padding-left: 8px;
+  }
+
+  .dashboard-page .analytics-wrapper .analytics .progress-status-wrapper {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  .dashboard-page .analytics-wrapper .analytics .like-song-wrapper {
+    width: 100%;
+  }
+
+  .dashboard-page .analytics-wrapper .analytics .like-song-wrapper .like-song,
+  .dashboard-page .analytics-wrapper .analytics .progress-status-wrapper .progress-status {
+    padding: 16px;
+  }
+
+  .dashboard-page .dashboard-header {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .dashboard-page .dashboard-header .d-img-content img {
+    margin-inline: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    display: block;
+  }
+
+  .dashboard-page .dashboard-header .fill-btn {
+    margin-top: 24px;
+  }
+
+  .dashboard-page .dashboard-header .d-img-content {
+    display: block;
+  }
+
+  .dashboard-page .dashboard-header .d-img-content .d-content {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  /* .banner-headeroverlay .sub-banneroverlay img{
+    height: 150px !important;
+  } */
+  .hiw-box .row {
+    margin-left: -30px !important;
+    margin-right: -30px !important;
+  }
+
+  .hiw-box .col-12 {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+
+  .hiw-number-left {
+    left: -46px;
+  }
+
+  .hiw-number-right {
+    right: -46px;
+  }
+
+  .chat-page {
+    height: calc(100vh - 112px);
+  }
+
+  .chat-page .chat-wrapper {
+    display: block;
+    position: relative;
+  }
+
+  .chat-page .chat-sidebar {
+    width: 100%;
+    border-right: 0;
+  }
+
+  .chat-page .chat-board {
+    width: 100%;
+  }
+
+  .chat-page .chat-sidebar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: var(--white-bg);
+    transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    z-index: 777
+  }
+
+  .chat-page .chat-sidebar.active {
+    left: -100%;
+    transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+  }
+
+  .chat-page .chat-board .chat-board-header img {
+    margin-left: 16px;
+  }
+
+  .back-chat {
+    width: 24px !important;
+    height: 24px !important;
+    transform: rotate(90deg);
+    margin-right: 0 !important;
+    margin: 0 !important;
+  }
+
+  .choose-column-section {
+    padding-top: 24px;
+  }
+
+  .tab-section {
+    padding: 12px 0;
+    /* padding-bottom: 19px;
+    clip-path: inset(0 0 7px 0); */
+  }
+
+  .tab-wrapper{
+    top: 112px;
+  }
+
+  .create-news-btn {
+    width: 130px;
+  }
+
+  .file-upload .image-box {
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: 24px; */
+  }
+
+  .CNE-fields {
+    margin-right: auto;
+    margin-top: 24px;
+  }
+
+  .news .news-box p {
+    height: auto;
+  }
+
+  .deletePopup .modal-dialog {
+    max-width: 336px;
+  }
+
+  .deletePopup .modal-content .modal-body .close {
+    top: 16px;
+    right: 16px
+  }
+
+  .deletePopup .modal-content .modal-body {
+    padding-top: 0;
+  }
+
+  .deletePopup .delete-photo {
+    padding-top: 0;
+  }
+
+  .deletePopup .delete-content {
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .deletePopup .modal-content .modal-body {
+    display: block;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .deletePopup .delete-photo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+  }
+
+  .deletePopup .delete-footer {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-align-items: center;
+  }
+
+  .deletePopup .delete-footer .fill-btn,
+  .deletePopup .delete-footer .border-btn {
+    width: calc(50% - 4px);
+    margin: 0;
+    display: block;
+  }
+
+  .deletePopup .modal-content .modal-body h5 {
+    margin-bottom: 10px;
+  }
+
+  .default-star-box img {
+    height: 20px;
+    width: 20px;
+    margin-right: 2px;
+  }
+
+  .song-btn-block {
+    margin-right: 20px;
+  }
+
+  .map-and-progress {
+    display: block;
+  }
+
+  .map-wrapper-box {
+    width: 100%;
+    padding-right: 0;
+    padding-top: 10px;
+  }
+
+  .progress-wrapper-box {
+    width: 100%;
+    margin-top: 16px;
+  }
+
+  .song-check-status .usc-box {
+    width: 50%;
+  }
+
+  .artist-profile-slider .this-img-wrapper{
+    margin-bottom: 16px;
+  }
+  .artist-profile-banner .col-12:last-child .this-img-wrapper{
+    margin-bottom: 0;
+  }
+  .artist-profile-slider .add-banner-btn{
+    margin-top: 16px;
+  }
+  .miniplayer-video{
+    width: 200px;
+    height: 112.5px;
+  }
+  .view-btn-links{
+    margin-top: 12px;
+  }
+  .view-btn-links .fill-btn{
+    margin-top: 6px !important;
+  }
+  .addNewsPopup .modal-dialog,
+  .aboutchangepopup .modal-dialog{
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 575px) {
+  .addNewsPopup .modal-dialog,
+  .aboutchangepopup .modal-dialog{
+    max-width: 100%;
+  }
+  .container-fluid, 
+  .container ,
+  .tab-wrapper .container-fluid .tab-section{
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+
+  h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  h4 {
+    font-size: 26px;
+    line-height: 38px;
+  }
+
+  h5 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  h6 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .s1 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .breadCrums ul li {
+    font-size: 12px;
+  }
+
+  .sub-banner img {
+    height: 150px !important;
+    object-fit: cover;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+
+  .top-navbar .navbar-brand img {
+    height: 30px;
+  }
+
+  .about-us .about-banner img {
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .about-us .our-value .row-5 .column .our-value-box {
+    padding: 20px 16px 20px;
+    margin-bottom: 16px;
+  }
+
+  .about-us {
+    padding-bottom: 45px;
+  }
+
+  .signin-page,
+  .contact-us,
+  .create-account,
+  .forgot-password,
+  .reset-password,
+  .otp-page,
+  .payment-page,
+  .subscription-yer-no {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .signin-page span,
+  .contact-us span,
+  .create-account span,
+  .forgot-password span,
+  .reset-password span,
+  .otp-page span,
+  .payment-page span,
+  .subscription-yer-no span {
+    font-size: 12px;
+  }
+
+  .payment-page>p {
+    margin-bottom: 35px;
+  }
+
+  .edit-profile .profile-content {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .edit-profile, .subscription {
+    padding-bottom: 45px;
+  }
+
+  .breadCrums ul li a {
+    margin-right: 8px;
+    padding-right: 12px;
+  }
+
+  .forums-authorsmain .forums-detail-btn img {
+    height: 20px;
+    width: 20px;
+  }
+
+  .forums-authorsmain .forums-detail-btn span {
+    margin-left: 2px;
+    font-size: 12px;
+  }
+
+  .contact-us .follow-us {
+    margin-top: 34px;
+  }
+
+  .edit-profile {
+    padding-top: 98px;
+  }
+
+  .edit-profile .profile-content .avatar-upload {
+    max-width: 105px;
+  }
+
+  .edit-profile .profile-content .avatar-upload .avatar-preview {
+    width: 105px;
+    height: 105px;
+    border-width: 6px;
+  }
+
+  .edit-profile .profile-content .avatar-upload .avatar-edit {
+    right: -6px;
+    z-index: 1;
+    bottom: -7px;
+  }
+
+  .edit-profile .profile-content .avatar-upload .avatar-edit input+label {
+    width: 35px;
+    height: 35px;
+  }
+
+  .subscription .subscripation-content .subscripation-detail .sub-items span {
+    font-size: 12px;
+  }
+
+  .subscription .subscripation-content .like-plan .like-plan-box .left-column span {
+    font-size: 12px;
+  }
+
+  .tab-section ul li {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  footer {
+    padding-top: 45px;
+  }
+
+  .rounded-img-carousel .owl-carousel .owl-stage-outer,
+  .double-img-carousel .owl-carousel .owl-stage-outer,
+  .square-img-carousel .owl-carousel .owl-stage-outer {
+    padding-left: 12px;
+  }
+
+  .rounded-img-carousel .owl-prev,
+  .double-img-carousel .owl-prev,
+  .square-img-carousel .owl-prev {
+    height: 35px;
+    width: 35px;
+    left: 12px;
+  }
+
+  .rounded-img-carousel .owl-next,
+  .double-img-carousel .owl-next,
+  .square-img-carousel .owl-next {
+    height: 35px;
+    width: 35px;
+    right: 12px;
+  }
+
+  .my-collection .owl-next,
+  .my-collection .owl-prev {
+    height: 35px;
+    width: 35px;
+  }
+
+  .how-it-work {
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+
+  .why-choose-fanclub {
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+
+  .music-icon-data {
+    margin-bottom: 50px;
+  }
+
+  .column-img .for-pad:first-child {
+    padding-top: 0;
+  }
+
+  .subscribe {
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+
+  .subscribe-block img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .subscribe-block .sub-overlay {
+    text-align: center;
+  }
+
+  .fanclub-artist, .trending-now, .new-on-fanclub, .featur-artist, .fanclub-playlist, .genres, .new-artist, .my-collection, .my-playlist, .my-artist {
+    padding-bottom: 45px;
+  }
+
+  .tab-section ul li .tab-link {
+    font-size: 14px;
+  }
+
+  .header-carousel .owl-item.active.center {
+    transform: scale(1.8);
+  }
+
+  .header-carousel {
+    padding-bottom: 40px;
+  }
+
+  .header-carousel .owl-prev {
+    width: 30px;
+    height: 30px;
+    left: 12px;
+  }
+
+  .header-carousel .owl-next {
+    width: 30px;
+    height: 30px;
+    right: 12px;
+  }
+
+  .recent-search {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+
+  .recent-search h5 {
+    margin-bottom: 14px;
+  }
+
+  .recent-search .search-wrapper .searching-data {
+    margin: 4px;
+    padding: 5px 8px 5px 12px;
+  }
+
+  .recent-search .search-wrapper .searching-data span {
+    font-size: 12px;
+  }
+
+  .my-playlist-video .header-img-data .big-img,
+  .my-collection-page .header-img-data .big-img,
+  .upcoming-event .header-img-data .big-img {
+    width: 168px;
+    height: 168px;
+  }
+
+  .my-playlist-video .header-img-data .data-wrapper>span,
+  .my-collection-page .header-img-data .data-wrapper>span,
+  .upcoming-event .header-img-data .data-wrapper>span {
+    margin-bottom: 4px;
+  }
+
+  .my-playlist-video .header-img-data .data-wrapper h3,
+  .my-collection-page .header-img-data .data-wrapper h3,
+  .upcoming-event .header-img-data .data-wrapper h3 {
+    margin-bottom: 6px;
+  }
+
+  .my-playlist-video .header-gradient,
+  .my-collection-page .header-gradient,
+  .upcoming-event .header-gradient {
+    padding-bottom: 45px;
+  }
+
+  .my-playlist-table table tr td:first-child {
+    width: 23px;
+    padding-right: 0;
+  }
+
+  .my-playlist-table table tr td .track img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .my-playlist-table table tr td .track .track-data {
+    width: calc(100% - 40px);
+    padding-left: 16px;
+  }
+
+  .my-playlist-table table tr td .track .track-data span {
+    font-size: 12px;
+  }
+
+  .my-collection-page .nav-tabs .nav-item {
+    margin-right: 18px;
+  }
+
+  .my-playlist-video, .my-collection-page {
+    padding-bottom: 45px;
+  }
+
+  .artist-details .about {
+    padding-top: 40px;
+  }
+
+  .artist-details .news {
+    padding-top: 45px;
+  }
+
+  .artist-details .event-data,
+  .artist-details .search-section {
+    padding-top: 29px;
+  }
+
+  .news .news-box-border {
+    margin-bottom: 16px;
+  }
+
+  .upcoming-event .event-data .event-box {
+    margin-bottom: 16px;
+  }
+
+  .songs-data .songs-box {
+    margin-bottom: 24px;
+  }
+
+  /* .upcoming-event{
+    padding-bottom: 29px;
+  } */
+  .dashboard-page .recent-upload {
+    padding-top: 45px;
+  }
+
+  .dashboard-page {
+    padding-bottom: 16px;
+  }
+
+  .navbar-expand .navbar-nav .music-language .dropdown-menu {
+    right: -35px;
+  }
+
+  .music-language .dropdown-menu {
+    min-width: 250px;
+  }
+
+  .music-language .music-header-data {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .music-btns {
+    padding: 16px 10px;
+  }
+
+  .notification .dropdown-menu {
+    min-width: 300px;
+  }
+
+  .notification .dropdown-menu {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .notification .n-data span {
+    font-size: 12px;
+  }
+
+  .notification .dropdown-menu ul li {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .banner-headeroverlay .baneroverlay-content .avatar-overlay {
+    max-width: 105px !important;
+  }
+
+  .banner-headeroverlay .baneroverlay-content .avatar-overlay .avatarover-preview {
+    width: 105px;
+    height: 105px;
+    border-width: 6px;
+  }
+
+  .banner-headeroverlay {
+    padding-top: 98px;
+  }
+
+  .banner-headeroverlay {
+    padding-bottom: 45px !important;
+  }
+
+  .my-profile-artists .my-collection-section .collection-imgs .c-img-block,
+  .my-profile-artists .c-img-thumb {
+    height: 50px;
+    width: 50px;
+    margin: 8px;
+  }
+
+  .my-profile-artists .my-collection-section {
+    padding-bottom: 37px;
+  }
+
+  .my-profile-artists .about span {
+    font-size: 12px;
+  }
+
+  .my-profile-artists .news {
+    padding-top: 45px;
+  }
+
+  .my-profile-artists .event-data {
+    padding-top: 21px;
+  }
+
+  .hiw-box::after {
+    display: none;
+  }
+
+  .hiw-box img {
+    display: block;
+    margin-bottom: 24px;
+  }
+
+  .hiw-number-left,
+  .hiw-number-right {
+    position: static;
+    transform: unset;
+    margin-bottom: 12px;
+  }
+
+  .hiw-box .mb-54 {
+    margin-bottom: 24px;
+  }
+
+  .hiw-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-align-items: center;
+    text-align: center;
+  }
+
+  .chat-page .chat-sidebar .search-bar {
+    padding: 12px;
+  }
+
+  .chat-page .chat-sidebar .chat-person-list {
+    height: calc(100% - 65px);
+  }
+
+  .chat-page .chat-sidebar .search-bar .search-box button {
+    padding-left: 16px;
+  }
+
+  .chat-page .chat-sidebar .chat-person-list .chat-person {
+    padding: 12px;
+  }
+
+  .chat-page .chat-sidebar .chat-person-list .chat-person .chat-person-detail>span,
+  .chat-page .chat-sidebar .chat-person-list .chat-person .chat-person-detail .caption {
+    font-size: 12px;
+  }
+
+  .chat-page .chat-sidebar .chat-person-list .chat-person img,
+  .chat-page .chat-board .chat-board-header img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .chat-page .chat-sidebar .chat-person-list .chat-person .chat-person-detail {
+    width: calc(100% - 55px);
+  }
+
+  .chat-page .chat-sidebar .chat-person-list .chat-person::after {
+    width: calc(100% - 24px);
+    left: 12px;
+  }
+
+  .chat-page .chat-board .chat-board-header {
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 65px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+
+  .chat-page .chat-board .chat-board-data {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .chat-page .chat-board .chat-board-data .day-status {
+    width: 100px;
+  }
+
+  .chat-page .chat-board .chat-board-data {
+    height: calc(100% - 137px);
+  }
+
+  .chat-page .chat-board .chat-board-data span {
+    font-size: 12px !important;
+  }
+
+  .chat-page .chat-board .chat-board-input {
+    padding: 16px 12px;
+  }
+
+  .chat-page .chat-board .chat-board-data .day-status p {
+    font-size: 10px;
+    height: 24px;
+  }
+
+  .banner-headeroverlay .sub-banneroverlay img {
+    height: 150px;
+  }
+
+  .about-us .our-value .our-value-box {
+    margin-bottom: 16px;
+  }
+
+  .artist-banner-content {
+    margin-bottom: 35px;
+  }
+
+  .about .a {
+    margin-top: 4px;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .usc-box img {
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin-right: 8px;
+  }
+
+  .upload-song-check {
+    margin-top: 40px;
+  }
+
+  .dashboard-page .recent-upload {
+    padding-top: 29px;
+  }
+
+  .my-playlist .container-fluid,
+  .my-artist .container-fluid,
+  .trending-now .container-fluid,
+  .new-artist2 .container-fluid,
+  .best-of-fanclub .container-fluid,
+  .top-artist .container-fluid,
+  .genres .container-fluid,
+  .seasonal-playlist .container-fluid,
+  .fanclub-playlist .container-fluid,
+  .featur-artist .container-fluid {
+    max-width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .my-collection {
+    /* padding-top: 45px; */
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .pt-76 {
+    padding-top: 40px;
+  }
+
+  .top-artist-box, .fanclub-playlist-box {
+    margin-bottom: 30px;
+  }
+
+  .top-artist-page {
+    padding-bottom: 15px;
+  }
+
+  .top-artist-page .breadCrums {
+    margin-bottom: 0;
+  }
+
+  .news .news-box {
+    padding: 16px 16px 16px;
+  }
+
+  .edit-news-dropdown {
+    margin-right: -10px !important;
+  }
+
+  .upcoming-event.add-gradient-only .header-gradient {
+    padding-bottom: 12px;
+  }
+
+  .upcoming-event {
+    padding-bottom: 34px;
+  }
+
+  .error-404 {
+    padding-bottom: 45px;
+  }
+
+  .newsPopup .modal-content {
+    padding-left: 19px;
+    padding-right: 19px;
+  }
+
+  .newsPopup .modal-dialog .modal-footer {
+    padding-bottom: 19px;
+    padding-top: 15px;
+  }
+
+  .edit-review-popup textarea {
+    font-size: 14px;
+  }
+
+  .edit-review-popup .m-footer .fill-btn {
+    width: 100%;
+  }
+
+  .full-data-header {
+    display: block;
+  }
+
+  .full-data-header h5 {
+    margin-bottom: 12px !important;
+  }
+
+  .create-news-btn {
+    width: 100%;
+  }
+
+  .password-successfull h4 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .password-successfull {
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+
+  .my-playlist-album .song-album {
+    padding-top: 12px;
+  }
+
+  .download-video,
+  .heart.video-likes {
+    height: 24px;
+    width: 24px;
+    margin-left: 12px;
+  }
+
+  .heart.video-likes .heart-checkmark {
+    height: 20px;
+    width: 20px;
+  }
+
+  .audio-toggle-sec {
+    padding-right: 12px;
+  }
+
+  .audio-toggle-sec .s1 {
+    font-size: 12px;
+  }
+
+  .video-bottom-content h5 {
+    font-size: 16px;
+  }
+
+  .default-star-box img {
+    height: 14px;
+    width: 14px;
+  }
+
+  .my-playlist-album .song-album-wrapper .video-thumbnail {
+    margin-bottom: 12px;
+  }
+
+  .song-list-wrapper .queue-name-detail span,
+  .song-list-wrapper .last-duration {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .song-list-wrapper .queue-name-detail .s1 {
+    line-height: 20px;
+  }
+
+  .song-list-wrapper ul li {
+    padding: 12px 9px 12px 0;
+  }
+
+  .song-list-wrapper ul li .drag-handle {
+    margin-right: 0;
+  }
+
+  .song-list-wrapper .song-list-img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .song-list-wrapper .queue-name-detail {
+    margin-right: 12px;
+  }
+
+  .song-list-wrapper .song-close,
+  .song-list-wrapper .song-menu,
+  .song-list-wrapper ul li .drag-handle {
+    height: 20px;
+    width: 20px;
+  }
+
+  .song-btn-block {
+    margin-right: 12px;
+  }
+
+  .song-list-wrapper ul li::after {
+    width: calc(100% - 29px);
+  }
+
+  .time-location-popup .location span,
+  .time-location-popup .time span {
+    font-size: 12px;
+  }
+
+  .time-location-popup .location img,
+  .time-location-popup .time img {
+    height: 24px;
+    width: 24px;
+  }
+
+  .review-and-addreview {
+    padding: 12px 0;
+  }
+
+  .video-reviews {
+    padding-top: 12px;
+    padding-bottom: 14px;
+  }
+
+  .song-list-wrapper .heart {
+    height: 20px;
+    width: 20px;
+  }
+
+  .song-list-wrapper .heart-checkmark {
+    height: 20px;
+    width: 20px;
+  }
+
+  .c-dropdown.player-list-dropdown,
+  .c-dropdown.player-list-dropdown button {
+    height: 20px !important;
+  }
+
+  .c-dropdown.player-list-dropdown button img {
+    height: 20px !important;
+    width: 20px !important;
+  }
+
+  .video-controller {
+    backdrop-filter: unset;
+  }
+
+  .c-dropdown.settingDropdown .dropdown-menu {
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed !important;
+    inset: unset !important;
+    transform: translate(-50%, -50%) !important;
+    left: 50% !important;
+    top: 50% !important;
+  }
+
+  .video-content-scroll {
+    max-height: unset;
+  }
+
+  .my-playlist-album .song-album-wrapper .video-thumbnail {
+    overflow: hidden;
+  }
+
+  .msg-status-icon {
+    height: 8px;
+    width: 8px;
+    left: 43px;
+    top: 20px;
+  }
+
+  .chat-board .chat-default-screen img {
+    width: 200px;
+  }
+
+  .artist-profile-slider{
+    padding-bottom: 35px;
+  }
+
+  .artist-profile-slider .active.center .item .deleteBanner{
+    top: 6px;
+    right: 6px;
+    height: 14px;
+    width: 14px;
+  }
+  .artist-profile-slider .active.center .item .deleteBanner img {
+    height: 10px;
+    width: 10px;
+  }
+
+  .create-new-events-page{
+    padding-bottom: 45px;
+  }
+  .hiw-fan-box, .hiw-artist-box{
+    padding: 24px;
+  }
+  .hiw-wrapper .custome-column:last-child{
+    margin-top: 16px;
+  }
+
+  .cookie-alert{
+    padding: 12px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 450px) {
+  .sideMenu {
+    width: 100%;
+    left: -100%;
+  }
+
+  .subscription .subscripation-content {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .subscription .subscripation-content .sub-table table tr td:first-child {
+    padding-left: 16px;
+  }
+
+  .subscription .subscripation-content .sub-table table tr td:last-child {
+    padding-right: 16px;
+  }
+
+  .subscription .subscripation-content .sub-table table tr td {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .subscription .subscripation-content .subscripation-detail {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .subscription .subscripation-content .subscripation-detail .sub-items {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .copy-right {
+    display: block;
+    text-align: center;
+    padding: 8px 0;
+  }
+
+  .header-carousel .owl-item.active.center {
+    transform: scale(1.9);
+  }
+
+  .header-carousel {
+    padding-bottom: 40px;
+  }
+
+  .signUpModal .sign-in-wrapper .sign-in-side {
+    padding: 24px;
+  }
+
+  .cc-picker-code-filter,
+  .cc-picker-code-list {
+    width: 300px;
+    margin: 0;
+  }
+
+  .review-and-addreview .border-btn {
+    width: auto;
+  }
+
+  .big-review-box span {
+    display: none;
+  }
+
+  .chat-page .chat-board .chat-board-data .receive-msg-box .receiver-img img {
+    height: 24px;
+    width: 24px;
+  }
+
+  .chat-page .chat-board .chat-board-data .receive-msg-box .receiver-img {
+    margin-right: 8px;
+  }
+
+  .map-wrapper {
+    padding: 24px;
+  }
+
+  .upload-song-check .column,
+  .song-check-status .usc-box {
+    width: 100% !important;
+  }
+  .addNewsPopup .m-footer .fill-btn{
+    width: 100%;
+  }
+}
+
+@media (max-width: 359px) {
+  .edit-profile .profile-content .gender .rd {
+    margin-right: 15px;
+  }
+
+  .edit-profile .profile-content .gender .rd {
+    padding-left: 24px;
+  }
+
+  .video-controller .control-btn {
+    height: 20px;
+    width: 20px;
+    margin: 0 4px;
+  }
+
+  .settingDropdown {
+    margin: 0 4px;
+  }
+
+  .c-dropdown.settingDropdown {
+    height: 20px;
+  }
+
+  .c-dropdown.settingDropdown button {
+    height: 20px;
+    width: 20px;
+  }
+
+  .c-dropdown.settingDropdown button img {
+    height: 20px;
+    width: 20px;
+  }
+
+  .video-progress-wrapper {
+    width: calc(100% - 155px);
+  }
+
+  .song-list-wrapper .last-duration {
+    display: none;
+  }
+
+  .song-btn-block {
+    margin-right: 0;
+  }
+
+  .song-list-wrapper ul li {
+    padding-right: 0;
+  }
+  .hiw-fan-box, .hiw-artist-box{
+    padding: 16px;
+  }
+
+  .dashboard-page .analytics-wrapper .analytics .like-song-wrapper .like-song span, .dashboard-page .analytics-wrapper .analytics .progress-status-wrapper .progress-status span {
+    font-size: 12px;
+  }
+}
+
+
+
+
+
+@supports (-webkit-touch-callout: none) {
+  .video-controller {
+    display: none !important;
+  }
+
+  .video-header {
+    right: 75px;
+    top: 10px;
+  }
+
+  hideData {
+    display: none;
+  }
+}
