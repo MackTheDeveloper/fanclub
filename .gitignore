@@ -6,6 +6,7 @@
 /vendor
 .env
 .htaccess
+webpack.mix.js
 .env.backup
 .phpunit.result.cache
 Homestead.json
